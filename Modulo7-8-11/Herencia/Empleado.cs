@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Herencia
+{
+    public partial class Empleado
+    {
+        public string Nombre
+        {
+            get; set;
+        }
+
+        public Empleado(string nombre)
+        {
+            Nombre = nombre;
+        }
+
+        protected double diasVacaciones;
+
+        public override string ToString()
+        {
+            return $"Empleado. Nombre: {Nombre}, " +
+                $" Dias de vacaciones: {diasVacaciones} ";
+        }
+    }
+}
