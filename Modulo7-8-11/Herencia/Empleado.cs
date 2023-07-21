@@ -19,10 +19,15 @@ namespace Herencia
 
         protected double diasVacaciones;
 
+        public virtual void CalculoVacaciones()
+        {
+            diasVacaciones += 10;
+        }
+
         public override string ToString()
         {
             return $"Empleado. Nombre: {Nombre}, " +
-                $" Dias de vacaciones: {diasVacaciones} ";
+                $"Dias de vacaciones: {diasVacaciones} ";
         }
     }
 }
