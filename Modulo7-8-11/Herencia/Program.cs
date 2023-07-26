@@ -73,6 +73,45 @@
             {
                 Console.WriteLine($"{ex.Message}. {ex.FechaHoraExcepcion}");
             }
+            Console.WriteLine();
+
+            // EJERCICIO 4
+
+            foreach (var empleado in lista)
+            {
+                var tipo = empleado.GetType().Name;
+                Console.Write(tipo + ": ");
+
+                switch (tipo)
+                {
+                    case "Trabajador":
+                        // TODO: Mostrar turno
+                        var trabajador = (Trabajador)empleado;
+                        Console.WriteLine(trabajador.Turno);
+                        break;
+                    case "Administrador":
+                        // TODO: Mostrar plaza de parking
+                        var administrador = (Administrador)empleado;
+                        try
+                        {
+                            Console.WriteLine(administrador.PlazaParking());
+                        }
+                        catch (ErrorBaseDatosException ex)
+                        {
+                            Console.WriteLine($"{ex.Message}. {ex.FechaHoraExcepcion}");
+                        }
+                        break;
+                    case "Externo":
+                        // TODO: Mostrar nombre de la empresa
+                        var externo = (Externo)empleado;
+                        Console.WriteLine(externo.Empresa);
+                        break;
+                    default:
+                        Console.WriteLine();
+                        break;
+                }
+            }
+            Console.WriteLine();
         }
     }
 }
