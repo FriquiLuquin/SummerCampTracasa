@@ -67,7 +67,7 @@ namespace EjemploLINQ
 
             var empleadosNuevos = new List<Empleado>            {                new Empleado                {                    Nombre = "Fabricio",                    Apellidos = "Cordero",                    Departament = Departamento.Desarrollo                },                new Empleado                {                    Nombre = "Julia",                    Apellidos = "Lombardo",                    Departament = Departamento.Admin                },            };
 
-            Empleados.Union(empleadosNuevos).ToList();
+            Empleados = Empleados.Union(empleadosNuevos).ToList();
             mostrarLista((List<Empleado>)Empleados);
         }
 
