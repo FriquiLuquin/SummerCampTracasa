@@ -17,7 +17,41 @@ namespace EjemploLINQ
         public void Ejecutar()
         {
             // Lista de empleados
-            IEnumerable<Empleado> Empleados = new List<Empleado>()            {                 new Empleado                 {                     Nombre = "Jose",                     Apellidos = "Coronado",                     Ciudad = "Madrid",                     Telefono = "123456789",                     Departament = Departamento.Admin                 },                 new Empleado                 {                     Nombre = "Luis",                     Apellidos = "Conde",                     Ciudad = "Madrid",                     Telefono = "423456789",                     Departament = Departamento.Desarrollo                 },                 new Empleado                 {                     Nombre = "Juan",                     Apellidos = "Nuñez",                     Ciudad = "Barcelona",                     Telefono = "9123456789",                     Departament = Departamento.Desarrollo                 },                 new Empleado                 {                     Nombre = "Maria",                     Apellidos = "Castillo",                     Ciudad = "Valencia",                     Telefono = "8123456789",                     Departament = Departamento.Soporte                 }            };
+            IEnumerable<Empleado> Empleados = new List<Empleado>()
+            {
+                 new Empleado
+                 {
+                     Nombre = "Jose",
+                     Apellidos = "Coronado",
+                     Ciudad = "Madrid",
+                     Telefono = "123456789",
+                     Departament = Departamento.Admin
+                 },
+                 new Empleado
+                 {
+                     Nombre = "Luis",
+                     Apellidos = "Conde",
+                     Ciudad = "Madrid",
+                     Telefono = "423456789",
+                     Departament = Departamento.Desarrollo
+                 },
+                 new Empleado
+                 {
+                     Nombre = "Juan",
+                     Apellidos = "Nuñez",
+                     Ciudad = "Barcelona",
+                     Telefono = "9123456789",
+                     Departament = Departamento.Desarrollo
+                 },
+                 new Empleado
+                 {
+                     Nombre = "Maria",
+                     Apellidos = "Castillo",
+                     Ciudad = "Valencia",
+                     Telefono = "8123456789",
+                     Departament = Departamento.Soporte
+                 }
+            };
 
             // Define una list consulta LINQ con los empleados definidos anteriormente donde:
             // El Departamento sea Desarrollo o Soporte
@@ -65,7 +99,21 @@ namespace EjemploLINQ
             // No se permite el uso de Lista.Add
             // Se agregan todos de una vez
 
-            var empleadosNuevos = new List<Empleado>            {                new Empleado                {                    Nombre = "Fabricio",                    Apellidos = "Cordero",                    Departament = Departamento.Desarrollo                },                new Empleado                {                    Nombre = "Julia",                    Apellidos = "Lombardo",                    Departament = Departamento.Admin                },            };
+            var empleadosNuevos = new List<Empleado>
+            {
+                new Empleado
+                {
+                    Nombre = "Fabricio",
+                    Apellidos = "Cordero",
+                    Departament = Departamento.Desarrollo
+                },
+                new Empleado
+                {
+                    Nombre = "Julia",
+                    Apellidos = "Lombardo",
+                    Departament = Departamento.Admin
+                },
+            };
 
             Empleados = Empleados.Union(empleadosNuevos).ToList();
             mostrarLista((List<Empleado>)Empleados);
@@ -75,7 +123,11 @@ namespace EjemploLINQ
         {
             foreach (var elem in lista)
             {
-                Console.WriteLine(elem.Nombre);                Console.WriteLine(elem.Apellidos);                Console.WriteLine(elem.Ciudad);                Console.WriteLine(elem.Telefono);                Console.WriteLine(elem.Departament);
+                Console.WriteLine(elem.Nombre);
+                Console.WriteLine(elem.Apellidos);
+                Console.WriteLine(elem.Ciudad);
+                Console.WriteLine(elem.Telefono);
+                Console.WriteLine(elem.Departament);
             }
             Console.WriteLine();
         }
