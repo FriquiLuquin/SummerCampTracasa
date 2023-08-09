@@ -1,15 +1,16 @@
-using EjemploMvcConversor.Servicios;
+using EjemploMVCConversor.Servicios;
 using EjemploMVCConversor.Models;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 //++ 1-Add services to the container.
 builder.Services.AddControllersWithViews();
 
-//builder.Services.AddDbContext<ContextoConversor>(options =>
-//{
-//    options.UseSqlServer(builder.Configuration["ConnectionStrings:ConexionDatos"]);
-//});
+builder.Services.AddDbContext<ContextoConversor>(options =>
+{
+    options.UseSqlServer(builder.Configuration["ConnectionStrings:ConexionDatos"]);
+});
 
 
 builder.Services.AddScoped<IServicioMonedas, ServicioCriptoMonedas>();

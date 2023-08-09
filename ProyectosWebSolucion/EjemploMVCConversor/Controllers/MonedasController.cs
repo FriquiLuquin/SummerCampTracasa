@@ -1,7 +1,7 @@
 ﻿using EjemploMVCConversor.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EjemploMvcConversor.Controllers
+namespace EjemploMVCConversor.Controllers
 {
 
 

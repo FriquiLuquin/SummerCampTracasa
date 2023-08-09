@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace EjemploMvcConversor.Controllers
+namespace EjemploMVCConversor.Controllers
 {
 
     // 1-Crear IRepositorio
