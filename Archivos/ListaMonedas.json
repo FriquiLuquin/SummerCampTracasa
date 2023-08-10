@@ -1,0 +1,16 @@
+{
+  "Monedas": [
+    {
+      "Codigo": "EUR",
+      "Nombre": "Euros"
+    },
+    {
+      "Codigo": "USD",
+      "Nombre": "Dolares"
+    },
+    {
+      "Codigo": "GBP",
+      "Nombre": "Libras"
+    }
+  ]
+}
