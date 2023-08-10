@@ -24,5 +24,10 @@
         {
             return Lista;
         }
+
+        public void AgregarMoneda(Moneda moneda)
+        {
+            Lista.Add(moneda);
+        }
     }
 }

@@ -14,7 +14,9 @@ builder.Services.AddDbContext<ContextoConversor>(options =>
 
 
 builder.Services.AddScoped<IServicioMonedas, ServicioCriptoMonedas>();
-builder.Services.AddScoped<IRepositorioMonedas, RepositorioMonedasMemoria>();
+builder.Services.AddScoped<IRepositorioMonedas, RepositorioMonedas>();
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();
 

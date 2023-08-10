@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploAngular", "EjemploAn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploMVC", "EjemploMVC\EjemploMVC.csproj", "{BB569F26-B39C-4997-A1BE-305A7F438561}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploMVCConversor", "EjemploMVCConversor\EjemploMVCConversor.csproj", "{2E1A25A5-40E5-4653-91CE-5C92F41A0B5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploMVCConversor", "EjemploMVCConversor\EjemploMVCConversor.csproj", "{2E1A25A5-40E5-4653-91CE-5C92F41A0B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiJsonBiblioteca", "ApiJsonBiblioteca\ApiJsonBiblioteca.csproj", "{C42CDCB9-40F7-4427-828F-15617BFB1046}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{2E1A25A5-40E5-4653-91CE-5C92F41A0B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E1A25A5-40E5-4653-91CE-5C92F41A0B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E1A25A5-40E5-4653-91CE-5C92F41A0B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42CDCB9-40F7-4427-828F-15617BFB1046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42CDCB9-40F7-4427-828F-15617BFB1046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42CDCB9-40F7-4427-828F-15617BFB1046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42CDCB9-40F7-4427-828F-15617BFB1046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
