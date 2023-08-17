@@ -1,6 +1,6 @@
 ﻿using ApiJsonBiblioteca;
 using AutoMapper;
-using EjemploMVCConversor.Models;
+using Biblioteca;
 
 namespace EjemploMvcConversor.Profiles
 {

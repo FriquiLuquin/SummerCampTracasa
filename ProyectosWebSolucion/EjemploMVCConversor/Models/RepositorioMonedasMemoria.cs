@@ -1,4 +1,6 @@
-﻿namespace EjemploMVCConversor.Models
+﻿using Biblioteca;
+
+namespace EjemploMVCConversor.Models
 {
     public class RepositorioMonedasMemoria : IRepositorioMonedas
     {

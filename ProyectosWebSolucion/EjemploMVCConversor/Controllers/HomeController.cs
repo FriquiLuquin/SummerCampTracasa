@@ -1,5 +1,6 @@
 ﻿using ApiJsonBiblioteca;
 using AutoMapper;
+using Biblioteca;
 using EjemploMVCConversor.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
