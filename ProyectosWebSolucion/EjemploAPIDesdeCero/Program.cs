@@ -20,6 +20,8 @@ builder.Services.AddDbContext<ContextoConversor>(options =>
     options.UseSqlServer(builder.Configuration["ConnectionStrings:ConexionDatos"]);
 });
 
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 var app = builder.Build();
 
 //+ 2-Configure the HTTP request pipeline
