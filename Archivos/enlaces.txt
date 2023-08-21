@@ -1,2 +1,4 @@
 https://v6.exchangerate-api.com/v6/a2add358f81f3345c05f21c9/latest/USD
 https://app.exchangerate-api.com/dashboard
+
+https://geeks.ms/jbosch/2009/12/16/ia-introduccin-a-las-mquinas-de-estado-finito-finite-state-machines-fsm-parte-i-de-ii/
