@@ -4,3 +4,7 @@ https://app.exchangerate-api.com/dashboard
 https://geeks.ms/jbosch/2009/12/16/ia-introduccin-a-las-mquinas-de-estado-finito-finite-state-machines-fsm-parte-i-de-ii/
 
 https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR63mUWPlq7NEsFZhkyH8jChUMlM3QzdDMFZOMkVBWU5BWFM3SDI2QlRBSC4u
+
+https://www.c-sharpcorner.com/article/jwt-authentication-and-authorization-in-net-6-0-with-identity-framework/
+
+https://jwt.io/
