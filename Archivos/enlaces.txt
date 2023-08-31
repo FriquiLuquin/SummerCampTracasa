@@ -8,3 +8,11 @@ https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR63mUWPl
 https://www.c-sharpcorner.com/article/jwt-authentication-and-authorization-in-net-6-0-with-identity-framework/
 
 https://jwt.io/
+
+https://www.ionos.es/digitalguide/servidores/seguridad/que-es-el-role-based-access-control-rbac/
+
+https://datatracker.ietf.org/doc/html/rfc7519
+
+https://stackblitz.com/edit/angular-combobox
+
+https://www.angularjswiki.com/angular/angular-currency-pipe-formatting-currency-in-angular/
