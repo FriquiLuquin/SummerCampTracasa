@@ -16,3 +16,5 @@ https://datatracker.ietf.org/doc/html/rfc7519
 https://stackblitz.com/edit/angular-combobox
 
 https://www.angularjswiki.com/angular/angular-currency-pipe-formatting-currency-in-angular/
+
+https://rxjs.dev/api/operators/tap

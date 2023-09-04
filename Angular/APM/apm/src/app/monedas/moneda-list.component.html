@@ -6,7 +6,7 @@
       <div class='row'>
         <div class='col-md-2'>Filter by:</div>
         <div class='col-md-4'>
-          <input [(ngModel)]="listFilter" type='text' (input)="filter()" />
+          <input [(ngModel)]="listFilter" type='text' />
         </div>
       </div>
       <div class='row'>
@@ -27,14 +27,16 @@
               <th>Nombre</th>
               <th>Codigo</th>
               <th>Simbolo</th>
+              <th>Factor Conversion</th>
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor='let moneda of monedasFiltered'>
-              <td><img *ngIf="showImage" [src]="moneda.imageUrl" [title]="moneda.nombre"></td>
-              <td>{{ moneda.nombre }}</td>
-              <td>{{ moneda.codigo }}</td>
-              <td>{{ moneda.simbolo }}</td>
+            <tr *ngFor='let moneda of filteredMonedas'>
+              <td><img *ngIf="showImage" [src]="moneda.imageUrl" [title]="moneda.name"></td>
+              <td>{{ moneda.name }}</td>
+              <td>{{ moneda.code }}</td>
+              <td>{{ moneda.symbol }}</td>
+              <td>{{ moneda.factorConversion }}</td>
             </tr>
           </tbody>
         </table>

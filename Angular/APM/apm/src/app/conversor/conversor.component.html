@@ -10,8 +10,8 @@
             <div class='col-md-4'>
                 <select name="select-moneda-origen" id="select-moneda-origen"
                         [(ngModel)]="monedaOrigenSelect" (change)="resetearConversion()">
-                    <option *ngFor="let moneda of monedas" [value]="moneda.Code">
-                        {{moneda.Descripcion}}
+                    <option *ngFor="let moneda of monedas" [value]="moneda.code">
+                        {{moneda.descripcion}}
                     </option>
                 </select>
             </div>
@@ -26,8 +26,8 @@
             <div class='col-md-4'>
                 <select name="select-moneda-destino" id="select-moneda-destino"
                         [(ngModel)]="monedaDestinoSelect" (change)="resetearConversion()">
-                    <option *ngFor="let moneda of monedas" [value]="moneda.Code">
-                        {{moneda.Descripcion}}
+                    <option *ngFor="let moneda of monedas" [value]="moneda.code">
+                        {{moneda.descripcion}}
                     </option>
                 </select>
             </div>

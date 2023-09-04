@@ -7,6 +7,7 @@ import { ConversorComponent } from './conversor/conversor.component';
 import { WelcomeComponent } from './home/welcome.component';
 import { MonedaListComponent } from './monedas/moneda-list.component';
 import { ProductListComponent } from './products/product-list.component';
+import { HttpClientModule, HttpHeaders } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,9 +18,9 @@ import { ProductListComponent } from './products/product-list.component';
     ConversorComponent 
   ],
   imports: [
-    BrowserModule, FormsModule
+    BrowserModule, FormsModule, HttpClientModule
   ],
-  providers: [],
+  providers: [MonedaListComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

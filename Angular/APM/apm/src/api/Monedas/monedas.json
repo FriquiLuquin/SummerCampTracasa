@@ -1,0 +1,299 @@
+[
+    {
+        "id": "b382073f-230c-499f-be42-02b986195a3a",
+        "code": "SEK",
+        "name": "Swedish Krona",
+        "symbol": "Skr",
+        "factorConversion": 11.0343220649,
+        "descripcion": "SEK Swedish Krona Skr",
+        "imageUrl": ""
+    },
+    {
+        "id": "703b15b4-525f-43f8-b286-0fe88188dbfb",
+        "code": "BRL",
+        "name": "Brazilian Real",
+        "symbol": "R$",
+        "factorConversion": 4.9336305086,
+        "descripcion": "BRL Brazilian Real R$",
+        "imageUrl": ""
+    },
+    {
+        "id": "ba226e3f-742c-4b5c-926e-13a4b263c815",
+        "code": "IDR",
+        "name": "Indonesian Rupiah",
+        "symbol": "Rp",
+        "factorConversion": 15216.927898625,
+        "descripcion": "IDR Indonesian Rupiah Rp",
+        "imageUrl": ""
+    },
+    {
+        "id": "5d7e97c4-e8b2-497f-ba3f-14dc08706499",
+        "code": "CNY",
+        "name": "Chinese Yuan",
+        "symbol": "CN¥",
+        "factorConversion": 7.2573707677,
+        "descripcion": "CNY Chinese Yuan CN¥",
+        "imageUrl": ""
+    },
+    {
+        "id": "699be14b-ea71-46bf-9730-15a2a9b39385",
+        "code": "HRK",
+        "name": "Croatian Kuna",
+        "symbol": "kn",
+        "factorConversion": 7.0419311882,
+        "descripcion": "HRK Croatian Kuna kn",
+        "imageUrl": ""
+    },
+    {
+        "id": "5b3c6c49-042b-4f37-b764-187ee3ad3539",
+        "code": "ISK",
+        "name": "Icelandic Króna",
+        "symbol": "Ikr",
+        "factorConversion": 131.4122848321,
+        "descripcion": "ISK Icelandic Króna Ikr",
+        "imageUrl": ""
+    },
+    {
+        "id": "602f805a-d6cd-4f0c-845b-28a3e400ceb5",
+        "code": "DKK",
+        "name": "Danish Krone",
+        "symbol": "Dkr",
+        "factorConversion": 6.9149312149,
+        "descripcion": "DKK Danish Krone Dkr",
+        "imageUrl": ""
+    },
+    {
+        "id": "3097ccb8-9b61-44c7-98fd-2b3b83c9212d",
+        "code": "ZAR",
+        "name": "South African Rand",
+        "symbol": "R",
+        "factorConversion": 18.8138420769,
+        "descripcion": "ZAR South African Rand R",
+        "imageUrl": ""
+    },
+    {
+        "id": "6260baab-710c-44e5-bed2-370f50353978",
+        "code": "PLN",
+        "name": "Polish Zloty",
+        "symbol": "zł",
+        "factorConversion": 4.1414405588,
+        "descripcion": "PLN Polish Zloty zł",
+        "imageUrl": ""
+    },
+    {
+        "id": "e4f69bbf-dab9-4765-9869-38a9db5dc6f0",
+        "code": "RON",
+        "name": "Romanian Leu",
+        "symbol": "RON",
+        "factorConversion": 4.5917407951,
+        "descripcion": "RON Romanian Leu RON",
+        "imageUrl": ""
+    },
+    {
+        "id": "1a4471d0-7cef-40f6-a134-4be504a41c92",
+        "code": "TRY",
+        "name": "Turkish Lira",
+        "symbol": "TL",
+        "factorConversion": 26.5147440298,
+        "descripcion": "TRY Turkish Lira TL",
+        "imageUrl": ""
+    },
+    {
+        "id": "b62cd901-17cd-4dce-9ddd-6916c67bbb3d",
+        "code": "CHF",
+        "name": "Swiss Franc",
+        "symbol": "CHF",
+        "factorConversion": 0.8853201053,
+        "descripcion": "CHF Swiss Franc CHF",
+        "imageUrl": ""
+    },
+    {
+        "id": "af1133ab-d416-4daf-8f1c-6acdbb3aa43a",
+        "code": "NZD",
+        "name": "New Zealand Dollar",
+        "symbol": "NZ$",
+        "factorConversion": 1.6823603134,
+        "descripcion": "NZD New Zealand Dollar NZ$",
+        "imageUrl": ""
+    },
+    {
+        "id": "0e347c13-6c00-472d-8620-6d2eeaf216f1",
+        "code": "MYR",
+        "name": "Malaysian Ringgit",
+        "symbol": "RM",
+        "factorConversion": 4.644100593,
+        "descripcion": "MYR Malaysian Ringgit RM",
+        "imageUrl": ""
+    },
+    {
+        "id": "54e2a052-d281-44e3-9568-7211163d551e",
+        "code": "INR",
+        "name": "Indian Rupee",
+        "symbol": "Rs",
+        "factorConversion": 82.6332907463,
+        "descripcion": "INR Indian Rupee Rs",
+        "imageUrl": ""
+    },
+    {
+        "id": "fe63b7af-e85f-46dd-87d8-759e38eec3bc",
+        "code": "MXN",
+        "name": "Mexican Peso",
+        "symbol": "MX$",
+        "factorConversion": 17.06494293,
+        "descripcion": "MXN Mexican Peso MX$",
+        "imageUrl": ""
+    },
+    {
+        "id": "e85c99c3-902f-4c4e-8de4-7ef8db30481a",
+        "code": "GBP",
+        "name": "British Pound Sterling",
+        "symbol": "£",
+        "factorConversion": 0.7941601128,
+        "descripcion": "GBP British Pound Sterling £",
+        "imageUrl": ""
+    },
+    {
+        "id": "d1af3e35-8b0c-4988-a7b7-8b6fbea27a4b",
+        "code": "HKD",
+        "name": "Hong Kong Dollar",
+        "symbol": "HK$",
+        "factorConversion": 7.8440910058,
+        "descripcion": "HKD Hong Kong Dollar HK$",
+        "imageUrl": ""
+    },
+    {
+        "id": "75b70c57-d45c-4f64-ac43-928f6bc70dc3",
+        "code": "USD",
+        "name": "US Dollar",
+        "symbol": "$",
+        "factorConversion": 1.0,
+        "descripcion": "USD US Dollar $",
+        "imageUrl": ""
+    },
+    {
+        "id": "1138457a-8ec0-4502-81b3-9562276d06e0",
+        "code": "SGD",
+        "name": "Singapore Dollar",
+        "symbol": "S$",
+        "factorConversion": 1.3536502194,
+        "descripcion": "SGD Singapore Dollar S$",
+        "imageUrl": ""
+    },
+    {
+        "id": "8568c982-504f-4de6-b4b9-956d29791591",
+        "code": "BGN",
+        "name": "Bulgarian Lev",
+        "symbol": "BGN",
+        "factorConversion": 1.8032102107,
+        "descripcion": "BGN Bulgarian Lev BGN",
+        "imageUrl": ""
+    },
+    {
+        "id": "0caf52b0-2527-4a76-98c7-988a2d38fbd1",
+        "code": "PHP",
+        "name": "Philippine Peso",
+        "symbol": "₱",
+        "factorConversion": 56.5213500931,
+        "descripcion": "PHP Philippine Peso ₱",
+        "imageUrl": ""
+    },
+    {
+        "id": "599999d0-43b7-4a6c-b8f5-a625b9f137b5",
+        "code": "AUD",
+        "name": "Australian Dollar",
+        "symbol": "AU$",
+        "factorConversion": 1.5495702527,
+        "descripcion": "AUD Australian Dollar AU$",
+        "imageUrl": ""
+    },
+    {
+        "id": "ed05c3d6-39a8-4ae3-9348-ae8740f68067",
+        "code": "THB",
+        "name": "Thai Baht",
+        "symbol": "฿",
+        "factorConversion": 35.0895454534,
+        "descripcion": "THB Thai Baht ฿",
+        "imageUrl": ""
+    },
+    {
+        "id": "1f0cda5c-9961-48b2-9714-b3156fccb9df",
+        "code": "CAD",
+        "name": "Canadian Dollar",
+        "symbol": "CA$",
+        "factorConversion": 1.3592402463,
+        "descripcion": "CAD Canadian Dollar CA$",
+        "imageUrl": ""
+    },
+    {
+        "id": "05eff48c-a224-4d99-9f5d-cba725aa809a",
+        "code": "ILS",
+        "name": "Israeli New Sheqel",
+        "symbol": "₪",
+        "factorConversion": 3.8009206328,
+        "descripcion": "ILS Israeli New Sheqel ₪",
+        "imageUrl": ""
+    },
+    {
+        "id": "712c8605-c752-4d72-a636-d5516fadbb04",
+        "code": "JPY",
+        "name": "Japanese Yen",
+        "symbol": "¥",
+        "factorConversion": 146.0462984601,
+        "descripcion": "JPY Japanese Yen ¥",
+        "imageUrl": ""
+    },
+    {
+        "id": "879b99f8-8ce8-4f28-a5eb-d8c00c4c568a",
+        "code": "KRW",
+        "name": "South Korean Won",
+        "symbol": "₩",
+        "factorConversion": 1316.0129275512,
+        "descripcion": "KRW South Korean Won ₩",
+        "imageUrl": ""
+    },
+    {
+        "id": "7a7262f6-7546-4214-8525-daecd196b0e1",
+        "code": "RUB",
+        "name": "Russian Ruble",
+        "symbol": "RUB",
+        "factorConversion": 95.3827614596,
+        "descripcion": "RUB Russian Ruble RUB",
+        "imageUrl": ""
+    },
+    {
+        "id": "0be5fc4e-a2a3-418a-80a7-e0f4daa4432f",
+        "code": "NOK",
+        "name": "Norwegian Krone",
+        "symbol": "Nkr",
+        "factorConversion": 10.663441689,
+        "descripcion": "NOK Norwegian Krone Nkr",
+        "imageUrl": ""
+    },
+    {
+        "id": "8ab9061a-1a10-4b5f-8f72-fc642d7f2ae5",
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€",
+        "factorConversion": 0.9275901676,
+        "descripcion": "EUR Euro €",
+        "imageUrl": ""
+    },
+    {
+        "id": "3a45f55d-e338-40fa-9444-fe0069996fa0",
+        "code": "CZK",
+        "name": "Czech Republic Koruna",
+        "symbol": "Kč",
+        "factorConversion": 22.3363440634,
+        "descripcion": "CZK Czech Republic Koruna Kč",
+        "imageUrl": ""
+    },
+    {
+        "id": "b806f642-3fed-48a4-8231-ff41abb39745",
+        "code": "HUF",
+        "name": "Hungarian Forint",
+        "symbol": "Ft",
+        "factorConversion": 356.2068066374,
+        "descripcion": "HUF Hungarian Forint Ft",
+        "imageUrl": ""
+    }
+]
