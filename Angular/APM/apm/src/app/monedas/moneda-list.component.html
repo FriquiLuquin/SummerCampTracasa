@@ -32,7 +32,7 @@
           </thead>
           <tbody>
             <tr *ngFor='let moneda of filteredMonedas'>
-              <td><img *ngIf="showImage" [src]="moneda.imageUrl" [title]="moneda.name"></td>
+              <td><img *ngIf="showImage" [src]="moneda.urlImagen" [title]="moneda.name"></td>
               <td>{{ moneda.name }}</td>
               <td>{{ moneda.code }}</td>
               <td>{{ moneda.symbol }}</td>

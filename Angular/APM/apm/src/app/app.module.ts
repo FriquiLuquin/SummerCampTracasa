@@ -20,7 +20,7 @@ import { HttpClientModule, HttpHeaders } from '@angular/common/http';
   imports: [
     BrowserModule, FormsModule, HttpClientModule
   ],
-  providers: [MonedaListComponent],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

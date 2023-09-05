@@ -5,5 +5,5 @@ export interface IMoneda {
     symbol: string,
     descripcion: string,
     factorConversion: number,
-    imageUrl: string
+    urlImagen: string
 }

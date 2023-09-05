@@ -53,7 +53,7 @@
             </div>
         </div> 
         <div class="row" *ngIf="conversionDone">
-            <div>{{importe}} {{monedaOrigenSelect}} equivale a {{resultado}} {{monedaDestinoSelect}}</div>
+            <div>{{importe | currency:monedaOrigenSelect:'symbol'}} equivale a {{resultado | currency:monedaDestinoSelect:'symbol'}}</div>
         </div> 
     </div> 
 </div>

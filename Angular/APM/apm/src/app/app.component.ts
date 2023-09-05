@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 
   template:`
-    <pm-monedas></pm-monedas>
     <pm-conversor></pm-conversor>
+    <pm-monedas></pm-monedas>
   `
 })
 export class AppComponent {

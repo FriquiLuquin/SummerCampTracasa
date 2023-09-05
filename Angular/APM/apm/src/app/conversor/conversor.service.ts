@@ -2,23 +2,24 @@ import { HttpClient, HttpHeaders, HttpErrorResponse } from "@angular/common/http
 import { Injectable } from "@angular/core";
 import { Observable, catchError, tap, throwError } from "rxjs";
 
-import { IMoneda } from "./moneda";
+import { IPeticionConversion } from "./peticion-conversion";
+import { IResultadoConversion } from "./resultado-conversion";
 
 @Injectable({
   providedIn: 'root'
 })
 
-export class MonedaService {
-  private monedaUrl = 'https://localhost:7055/api/Monedas';
+export class ConversorService {
+  private conversorUrl = 'https://localhost:7055/api/Conversor';
   private token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZmVybWluIiwianRpIjoiZjU2MGFhNGQtZTNiNC00YTM0LTk1MDUtMWM4NDFiNWY3NTViIiwiZXhwIjoxNjkzOTIxNTk5LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDAiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjQyMDAifQ.NWMoIH8Lg2AAEtTLK-4NR6Ygru79fqnAvmCLI82CXFI"
 
   constructor(private http: HttpClient) { }
 
-  getMonedas(): Observable<IMoneda[]> {
+  postConversion(body: IPeticionConversion): Observable<IResultadoConversion> {
     let headers = new HttpHeaders().set('Authorization', `Bearer ${this.token}`);
-    return this.http.get<IMoneda[]>(this.monedaUrl, { headers }).pipe(
-      tap(data => console.log('All', JSON.stringify(data))),
-      catchError(this.handleError)
+    return this.http.post<IResultadoConversion>(this.conversorUrl, body, { headers }).pipe(
+        tap(data => console.log('All', JSON.stringify(data))),
+        catchError(this.handleError)
     );
   }
 
