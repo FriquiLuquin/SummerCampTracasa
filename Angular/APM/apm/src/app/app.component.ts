@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 
   template:`
     <pm-conversor></pm-conversor>
-    <pm-monedas></pm-monedas>
+    <pm-historial></pm-historial>
+    <!-- <pm-monedas></pm-monedas> -->
   `
 })
 export class AppComponent {

@@ -2,21 +2,22 @@ import { HttpClient, HttpHeaders, HttpErrorResponse } from "@angular/common/http
 import { Injectable } from "@angular/core";
 import { Observable, catchError, tap, throwError } from "rxjs";
 
-import { IMoneda } from "./moneda";
+import { IHistorial } from "./historial";
 
 @Injectable({
   providedIn: 'root'
 })
 
-export class MonedaService {
-  private monedaUrl = 'https://localhost:7055/api/Monedas';
+export class HistorialService {
+  private idUsuario = "1d03a0ad-823b-4c28-a2f7-9ee42e2f2fde";
+  private historialUrl = 'https://localhost:7055/api/Usuarios/' + this.idUsuario + '/Historial';
   private token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZmVybWluIiwianRpIjoiN2VkYmIxNGUtNmMxMy00MTFiLTliOWQtMjNlMzdhNmIzYjg4IiwiZXhwIjoxNjkzOTkzNDU0LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDAiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjQyMDAifQ.CVurPqdZhaYJVVJSju9quVqUgN_yMzWjtwg566X6B3g"
 
   constructor(private http: HttpClient) { }
 
-  getMonedas(): Observable<IMoneda[]> {
+  getHistorial(): Observable<IHistorial[]> {
     let headers = new HttpHeaders().set('Authorization', `Bearer ${this.token}`);
-    return this.http.get<IMoneda[]>(this.monedaUrl, { headers }).pipe(
+    return this.http.get<IHistorial[]>(this.historialUrl, { headers }).pipe(
       tap(data => console.log('All', JSON.stringify(data))),
       catchError(this.handleError)
     );
