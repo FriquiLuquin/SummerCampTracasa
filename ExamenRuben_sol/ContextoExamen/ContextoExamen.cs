@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Entidades;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,17 @@ using System.Threading.Tasks;
 
 namespace ContextoExamen
 {
-    internal class ContextoExamen:DbContext
+    public class ContextoExamen:DbContext
     {
+        public ContextoExamen(DbContextOptions<ContextoExamen> options) : base(options) {
+
+
+
+        }
+         
+         public DbSet<Persona> Persona { get; set; }
+
     }
+
 }
+

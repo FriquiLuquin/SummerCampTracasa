@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using Perfiles;
+using Repositorio;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +11,24 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+        });
+});
+builder.Services.AddScoped<IRepositorioBD,RepositorioBD>();
+builder.Services.AddDbContext<ContextoExamen.ContextoExamen>(options =>
+          {
+              options.UseSqlServer(builder.Configuration["ConnectionStrings:ConexionDatos"]);
+          });
+
+builder.Services.AddAutoMapper(typeof(PersonaProfile) );
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
