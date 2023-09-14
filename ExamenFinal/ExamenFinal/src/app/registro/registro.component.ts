@@ -14,7 +14,7 @@ export class RegistroComponent {
   sub!: Subscription;
   alta: Iregistro = {
   nombre: '',
-  fechanacimiento:'',
+  fechaNacimiento:'',
   telefono: ''
    
   };
@@ -35,7 +35,7 @@ export class RegistroComponent {
     const altaDTO: Iregistro = {
       nombre: myForm.value.nombre,
       
-      fechanacimiento: myForm.value.fechaNacimiento,
+      fechaNacimiento: myForm.value.fechaNacimiento,
       telefono: myForm.value.telefono
     };
     this.postAlta(altaDTO);

@@ -1,5 +1,5 @@
 export interface Iregistro{
     nombre:string,
-    fechanacimiento:string,
+    fechaNacimiento:string,
     telefono:string
 }

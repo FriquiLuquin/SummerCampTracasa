@@ -1,20 +1,17 @@
-<form [formGroup]="myForm" (ngSubmit)="submitForm()">
+<form [formGroup]="myForm" (ngSubmit)="rellenarAlta(myForm)">
     <div class="form-group">
       <label for="nombre">Nombre:</label>
       <input type="text" id="nombre" formControlName="nombre">
-      <div *ngIf="myForm.get('nombre').invalid && (myForm.get('nombre').dirty || myForm.get('nombre').touched)">
-        <div *ngIf="myForm.get('nombre').hasError('required')">El nombre es obligatorio.</div>
-        <div *ngIf="myForm.get('nombre').hasError('maxlength')">El nombre no puede superar los 50 caracteres.</div>
+        <div *ngIf="myForm.get('nombre')&& (myForm.get('nombre') || myForm.get('nombre'))"></div>
       </div>
-    </div>
+    
     <div class="form-group">
-      <label for="apellido">Apellido:</label>
-      <input type="text" id="fechanacimiento" formControlName="fechanacimiento">
-      <div *ngIf="myForm.get('fechanacimiento').invalid && (myForm.get('fechanacimiento').dirty || myForm.get('fechanacimiento').touched)">
-        <div *ngIf="myForm.get('fechanacimiento').hasError('required')">El apellido es obligatorio.</div>
-        <div *ngIf="myForm.get('fechanacimiento').hasError('maxlength')">El apellido no puede superar los 50 caracteres.</div>
+      <label for="apellido">fecha nacimiento:</label>
+      <input type="date" id="fechaNacimiento" formControlName="fechaNacimiento">
+      <div *ngIf="myForm.get('fechaNacimiento')&& (myForm.get('fechaNacimiento') || myForm.get('fechaNacimiento'))">
+        
       </div>
     </div>
     <!-- Agrega más campos y mensajes de validación según tus necesidades -->
-    <button type="submit" [disabled]="!myForm.valid">Registrar</button>
+    <button type="submit">Registrar</button>
   </form>
