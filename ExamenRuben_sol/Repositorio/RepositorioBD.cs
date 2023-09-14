@@ -15,7 +15,7 @@ namespace Repositorio
         public async Task<List<Persona>> GetPersonaAsync() {
 
             var consulta =await db.Persona
-           .OrderBy(persona => persona.Nombre)
+           .OrderByDescending(persona => persona.Nombre)
            .ToListAsync();
             return consulta.Where(persona => CalcularEdad(persona.FechaNacimiento) > 21).Take(10).ToList();
             
