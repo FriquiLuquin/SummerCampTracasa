@@ -33,7 +33,7 @@ export class RegistroComponent {
 
   rellenarAlta(myForm : FormGroup): void {
     const altaDTO: Iregistro = {
-      nombre: myForm.value.nombre,
+      nombre: myForm.value.nombre,   
       
       fechaNacimiento: myForm.value.fechaNacimiento,
       telefono: myForm.value.telefono
